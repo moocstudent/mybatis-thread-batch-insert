@@ -57,7 +57,7 @@ public class PersonService {
     }
 
     private ArrayList<Person> getPersonList(int count) {
-        ArrayList<Person> persons = new ArrayList<>();
+        ArrayList<Person> persons = new ArrayList<>(count);
         for (int i = 0; i < count; i++) {
             persons.add(getPerson());
         }
