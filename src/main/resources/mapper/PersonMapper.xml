@@ -3,7 +3,7 @@
         "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 <mapper namespace="com.example.demos.mapper.PersonMapper">
     <insert id="insertList" parameterType="com.example.demos.entity.Person">
-        insert into person_copy3 (name, phone, salary, company, if_single, sex, address, create_time, create_user)
+        insert into person (name, phone, salary, company, if_single, sex, address, create_time, create_user)
         values
         <foreach collection="list" item="item" separator=",">
             (#{item.name}, #{item.phone}, #{item.salary}, #{item.company}, #{item.ifSingle}, #{item.sex},
