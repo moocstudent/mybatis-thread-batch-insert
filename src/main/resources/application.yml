@@ -6,7 +6,7 @@ spring:
     driver-class-name: com.mysql.cj.jdbc.Driver
     url: jdbc:mysql://localhost:3306/test_db?useUnicode=true&characterEncoding=utf-8&useSSL=false
     username: root
-    password: Root5418
+    password:
 
 mybatis:
   mapper-locations: classpath:mapper/*.xml
