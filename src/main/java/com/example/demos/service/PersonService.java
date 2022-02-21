@@ -20,7 +20,7 @@ import java.util.concurrent.atomic.AtomicLong;
  */
 @Component
 public class PersonService {
-    private static final int THREAD_COUNT = 10;
+    private static final int THREAD_COUNT = 6;
     @Autowired
     private PersonMapper personMapper;
     @Autowired
