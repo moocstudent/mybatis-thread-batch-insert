@@ -1,5 +1,7 @@
 # generateData2Mysql
 
+fork from csdn author
+
 造测试数据专用，嘎嘎快
 
 基于springboot，采用定时任务+线程池实现
